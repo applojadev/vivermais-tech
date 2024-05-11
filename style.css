@@ -1,0 +1,214 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #F68748;         
+    color: #fff;
+}
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+h2 {
+    color: #C15C29;         
+    margin-bottom: 20px;         
+    font-size: 24px;         
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #f4f4f4;             
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+article,
+blockquote {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #F68748;             
+    background-color: #fff;                
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+section {
+    padding: 0px 0;
+    text-align: center;
+}
+footer {
+    background-color: #625456;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #F68748;             
+    border-radius: 5px;
+    background-color: #fff;
+}
+button[type="submit"] {
+    background-color: #007bff;             
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;            
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.high-contrast {
+    filter: invert(100%);
+}
+body.large-font {
+    font-size: 22px;
+}
+.accessibility-controls {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.accessibility-controls button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.accessibility-controls button:hover {
+    background-color: #0056b3;
+}
+.price {
+    font-size: 20px;
+    color: #ff0000;
+    margin: 10px 0;
+}
+.btn-purchase {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px 0 15px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+.btn-purchase:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    header h1,
+    .container {
+        padding: 10px;
+        text-align: center;
+    }
+    .flex-container,
+    .flex-container article,
+    .flex-container blockquote {
+        flex-direction: column;
+        align-items: center;
+    }
+    article,
+    blockquote {                 
+        min-width: auto;                    
+        max-width: 100%;                    
+        margin: 10px 0;                    
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;                 
+    }
+    form {
+        width: 100%;                 
+        max-width: 500px;                    
+        margin: 0 auto;                    
+        padding: 0;                    
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    button[type="submit"] {
+        width: 100%;                    
+        box-sizing: border-box;                    
+    }
+}
