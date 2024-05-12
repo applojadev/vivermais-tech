@@ -24,6 +24,10 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+.ia-generated {
+    font-size: 12px;
+    color: #999;
+}
 header {
     background-color: #F68748;         
     color: #fff;
