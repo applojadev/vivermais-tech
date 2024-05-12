@@ -15,4 +15,4 @@ Criar um e-commerce para atender aos usuários com necessidades especiais (idoso
 Copie todos os arquivos para uma pasta local ou se preferir execute o comando "git clone" para clonar o projeto. Abra o arquivo index.html no seu navegador e navegue pelo site
 
 ## Site vivermais-tech
-https://warm-palmier-fc787d.netlify.app/
+https://vivermais-tech.netlify.app/
