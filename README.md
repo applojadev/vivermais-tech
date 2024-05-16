@@ -5,7 +5,7 @@ PROJETO INTEGRADOR: GESTÃO DE PROJETOS E ESTRUTURA DE EQUIPES
 Criar um e-commerce para atender aos usuários com necessidades especiais (idoso ou portador de alguma deficiência: como deficiências visuais, auditivas, motoras ou cognitivas)
 
 ## Integrantes do projeto
-- Alexandre Souza
+- Alexandre B O Souza
 - Amanda Barbosa
 - Fillipe Matias
 - Mario Junior
